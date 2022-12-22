@@ -1,0 +1,33 @@
+@font-face {
+  font-family: GloomyThings;
+  src: url("../fonts/Gloomy Things.ttf");
+}
+
+body {
+  font-family: "GloomyThings";
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h5 {
+  font-size: 40px;
+}
+
+.hero {
+  margin-top: 5vh;
+  color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h1,
+.hero h5 {
+  color: #fff;
+  margin: 0;
+}
